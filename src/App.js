@@ -6,6 +6,8 @@ import "./App.css";
 import Header from "./assets/components/Header/Header";
 import Footer from "./assets/components/Footer/Footer";
 import Hero from "./assets/components/UI/Hero";
+import Services from "./assets/components/UI/Services";
+import { Portfolio } from "./assets/components/UI/Portfolio";
 
 function App() {
   useEffect(() => {
@@ -16,6 +18,8 @@ function App() {
     <Header />
     <main>
       <Hero />
+      <Services />
+      <Portfolio />
     </main>
     <Footer />
   </>
